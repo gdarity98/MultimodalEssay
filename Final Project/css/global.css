@@ -1,0 +1,76 @@
+#container{
+	width: 1000px;
+	margin: auto;
+    border: 1px solid #000000;
+}
+
+.clear{
+	clear: both;
+}
+p, ul ,li{
+    font-family: 'Noto Serif', sans-serif;
+}
+
+h2, h3{
+    font-family: "Noto Sans", Times, serif;
+}
+
+#header{
+	background-color: #000000;
+}
+
+.navFont{
+    font-family: "Noto Sans", Times, serif;
+    font-size: 14px
+}
+#header img{
+	float: right;
+	width: 15%;
+	padding: 10px;
+}
+
+#header a{
+    transition: color 0.5s ease;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#header a:hover{
+	transition: color 0.5s ease;
+    color: #8A0707;
+	text-decoration: none;
+}
+
+#header a.activePage{
+	color: #8A0707;
+}
+#header ul li.lastNavItem{
+	border-right: none;
+	border: none;
+    font-family: "Noto Sans", Times, serif;
+    font-size: 14px
+}
+
+#header ul{
+	float: left;
+	list-style-type: none;
+    padding-left: 10px;
+}
+
+#header ul li{
+	padding: 10px;
+	text-transform: uppercase;
+	border-right: 1px solid #404040; 
+	float: left;
+}
+
+.lastNavItem.navFont{
+    font-family: "Courier New", Times, serif;
+    border-right: none;
+	border: none;    
+}
+
+#footer{
+	background-color: #000000;
+    height: 50px;
+}
