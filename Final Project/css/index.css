@@ -29,6 +29,7 @@ h2{
 
 p{
     margin:0;
+    padding:0;
     text-align: left;
 }
 
@@ -62,7 +63,13 @@ p{
 }
 
 
+.bodyContent li{
+    text-align: left;
+    padding: 5px;
+}
+
+
 .importantText{
-    color:#660000;
+    text-decoration: underline;
 }
 
